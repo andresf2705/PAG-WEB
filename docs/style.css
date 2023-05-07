@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+
+main{
+
+    border: 1px solid purple;
+    height: 640px;
+    width: 1110;
+    margin: auto;
+}
+
+header{
+    border: 1px solid red;
+    height: 100px;
+}
+nav{
+    border: 1px solid blue;
+    height: 50px;
+}
+section{
+    border: 1px solid purple;
+    height: 425px;
+}
+
+footer{
+    border: 1px solid yellow;
+    height: 55px;
+}
