@@ -1,9 +1,20 @@
 body{
-    background-color: turquoise;
+  background-color: aquamarine;
+  background-position: 10%;
+  align-items: center;
+  display: contents;
+
+  
 }
 
 
-
+body img{
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 main{
     border: 2px solid rgb(140, 0, 158);
@@ -46,7 +57,7 @@ main{
     padding: 10px 0;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(204, 207, 153);
   }
   
   section{
@@ -55,6 +66,7 @@ main{
     padding: 6px;
     display: flex;
     justify-content: center;
+    
   }
   
   aside{
@@ -75,12 +87,21 @@ main{
 
 
   article{
-    border: 2px solid rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
     height: 137px;
     width: 580px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
+
+  article img{
+   height: 300px;
+   width: 350px;
+   border-radius: 10%;
+   margin: 0px;
+  } 
+  
+ 
   
   footer{
     border-top: 2px solid rgb(226, 2, 2);
