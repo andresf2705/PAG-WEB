@@ -1,68 +1,89 @@
 body{
-    background-color: azure;
+    background-color: turquoise;
 }
+
+
 
 
 main{
-
-    border: 1px solid purple;
+    border: 2px solid rgb(140, 0, 158);
+    border-radius: 10px;
     height: 640px;
-    width: 1110;
+    width: 1110px;
     margin: auto;
-}
+  }
+  
+  header {
+    display: flex;
+    margin-right: 0;
+    justify-content: center;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  header img {
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
+    
+  }
 
-header{
-    border: 1px solid red;
-    height: 100px;
-}
-nav{
-    border: 1px solid blue;
+  
+  nav{
+    border-bottom: 2px solid rgb(230, 0, 180);
     height: 50px;
-}
-section{
-    border: 1px solid purple;
-    height: 425px;
-    padding: 6px;
-}
-
-footer{
-    border: 1px solid yellow;
-    height: 55px;
-}
-aside{
-    border: 1px solid rgb(236, 217, 10);
-    height: 415px;
-    width: 500px;
-    float: left;
-}
-article{
-    border: 1px solid red;
-    height: 137px;
-    width: 800px;
-    float: right;
-    
-    
-}
-ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li {
     border: 1px solid;
+    border-radius: 10px;
     display: inline-block;
     width: 100px;
-    margin: right;
-    padding: 0;
+    margin-right: 5px;
+    padding: 10px 0;
     font-family: 'Josefin Sans', sans-serif;
-    }
-
-header{
+    text-align: center;
+    background-color: rgb(255, 251, 0);
+  }
+  
+  section{
+    border-bottom: 2px solid rgb(32, 231, 6);
+    height: 425px;
+    padding: 6px;
     display: flex;
-    margin: right;
     justify-content: center;
-    height: 230px;
-    background-color: rgb(150, 150, 238);
-}
+  }
+  
+  aside{
+    border: 2px solid rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 337px;
+    width: 500px;
+    margin-right: 10px;
+     
+  }
+  
+  aside img{
+   height: 200px;
+   width: 337px;
+   border-radius: 10%;
+   margin: 20px;
+  }
 
-header img{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    
-    }
+
+  article{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 137px;
+    width: 580px;
+    margin-top: 10px;
+  }
+  
+  footer{
+    border-top: 2px solid rgb(226, 2, 2);
+    height: 55px;
+  }
+  
